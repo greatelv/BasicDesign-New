@@ -1,0 +1,266 @@
+.header{
+    height: 30px;
+}
+
+h3{
+    display: inline-block;
+    float: left;
+    font-size: 1.6em;
+    line-height: 30px;
+    text-indent: 2px;
+}
+
+.header > div{
+    float: right;
+    background-color: #ededed;  border-color: #ddd;  color: #333;  text-shadow: 0 1px 0 #f3f3f3;
+    border-radius: .3125em;
+    width: 8em;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+
+#page_share{
+    background-image: url(../../img/pcl/bg.png);
+}
+
+#page_share .item-ctn{
+    margin-top: 1.2em;
+}
+
+#page_share .item-ctn ul{
+    display: inline-block;
+    width: 100%;
+}
+
+#page_share .item-ctn ul li{
+    height: 150px;
+    width: 33.3%;
+    background-image: url(../../sample/1.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-position: center;
+    box-sizing: border-box;    
+    -moz-box-sizing:border-box;    
+    -webkit-box-sizing:border-box;            
+    /* border: 1px solid rgba(125, 125, 125, 0); */
+    cursor: pointer;
+    /* margin: 2px; */
+    text-align: center;
+}
+
+/*#page_share .item-ctn ul li img{
+    width: 100%;
+}*/
+
+
+/*사진 업로드 이미지*/
+#page_share_upload{
+    background-image: url(../../img/pcl/bg.png);
+}
+
+
+
+#page_share_upload form{
+}
+
+#page_share_upload .form{
+    /* padding: 0 1em 0 1em; */
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    position: relative;
+    top: 3em;
+}
+
+#page_share_upload .form ul{}
+
+#page_share_upload .form ul li{
+    line-height: 50px;
+}
+
+#page_share_upload .form ul li label{
+    float: left;
+    width: 25%;
+    font-size: 1.3em;
+    color: #282828;
+    text-indent: 2px;
+}
+
+#page_share_upload .form ul li input{
+    height: 30px;
+    width: 74%;
+    text-indent: 1em;
+    border-radius: .3125em;
+    border: 1px solid #A2A2A2;
+}
+
+#page_share_upload .form ul li .upload{
+    display: inline-block;
+    width: 7.5em;
+    height: 30px;
+    line-height: 0px;
+    text-indent: 0px;
+    line-height: 30px;
+}
+
+#page_share_upload .form ul li span.file_name{
+    margin-right: 2em;
+    width: 10em;
+    height: 50px;
+    text-overflow: ellipsis; white-space: nowrap; overflow: hidden;
+    display: inline-block;
+    float: right;
+}
+
+#page_share_upload .form ul li .photo-info{
+    display: inline-block;
+    
+    margin-left: 10px;
+    width: 120px;
+}
+
+#page_share_upload #submit{
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    top: 6em;
+}
+
+
+/*공유 상세*/
+
+#page_share_view{
+    background-image: url(../../img/pcl/bg.png);
+}
+
+#page_share_view .photo-view{
+    width: 100%;
+    height: 460px;
+    display: inline-block;
+    top: 0px;
+    margin-top: 1.2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#page_share_view .photo-view .label{
+    position: relative;
+    
+    width: 100%;
+    height: 42px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#page_share_view .photo-view .label > div{
+    display: inline-block;
+    
+    position: absolute;
+    color: #DDD;
+}
+
+#page_share_view .photo-view .label > .writer{
+    right: 0.8em;
+
+    top: 2em;
+}
+
+#page_share_view .photo-view .label > .desc{
+    top: 0.8em;
+
+    left: 0.8em;
+}
+
+#page_share_view .photo-view .label > .date{
+    right: 0.8em;
+
+    top: 0.8em;
+}
+
+#page_share_view > div > .comment{
+    margin-top: 1.2em;
+}
+
+#page_share_view .comment ul{
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+}
+
+#page_share_view .comment ul li{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /* height: 30px; */
+    margin-bottom: 0.48em;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 5px 0;
+    /* line-height: 47px; */
+}
+
+#page_share_view .comment ul li:last-child{
+    border-bottom: none;
+}
+
+#page_share_view .comment ul li .writer{
+    display: inline-block;
+    margin-left: 0.8em;
+    font-weight: bolder;
+    color: #555;
+    width: 60px;
+    /* float: left; */
+    position: relative;
+    height: 100%;
+}
+
+#page_share_view .comment ul li .date{
+    display: inline-block;
+    color: #888;
+    margin-left: 2px;
+    height: 100%;
+    float: left;
+}
+
+#page_share_view .comment ul li .comment{
+    display: inline-block;
+    float: right;
+    width: 180px;
+    color: #888;
+    height: 100%;
+    max-height: 90px;
+    /* line-height: 30px; */
+}
+
+#page_share_view .comment ul li > div{
+    line-height: 30px;
+    
+}
+
+#page_share_view .form{
+    display: block;
+}
+
+#page_share_view .form input{
+    float: left;
+    height: 30px;
+    width: 73%;
+    border-radius: .3125em;
+    border: 1px solid #C9C9C9;
+}
+
+#page_share_view .form .submit{
+    height: 30px;
+    line-height: 30px;
+    width: 25%;
+    float: right;
+}
